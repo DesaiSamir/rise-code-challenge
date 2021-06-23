@@ -21,6 +21,12 @@ function server() {
 		const dbData = JSON.stringify(db, null, 4);
 		fs.writeFile(dbFile, dbData, callback);
 		function callback(err){
+			const response = {
+				error: err,
+				status: err ? 'Failed updating.' : 'Data updated successfully.',
+				tabId: tabId,
+			}
+			res.send(response);
 		}
 	});
 	app.get('/flashcard-blocks', (req, res) => res.send(db.flashcardBlocks));
