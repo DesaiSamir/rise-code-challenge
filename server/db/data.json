@@ -9,7 +9,7 @@
                         "type": "image",
                         "url": "https://images.articulate.com/f:jpg%7Cpng,a:retain,b:fff/rise/courses/S3jQ2LjHDoRsPUQmR7dp6hA7-IaoYPA4/q0r7xIVMCo4RkD5A.gif"
                     },
-                    "selected": false,
+                    "selected": true,
                     "id": 0
                 },
                 {
@@ -23,7 +23,7 @@
                     "title": "Making It Real",
                     "description": "No creative process is truly complete until it manifests a tangible reality. Whether your idea is an action or a physical creation, bringing it to life will likely involve the hard work of iteration, testing, and refinement.\n\nJust be wary of perfectionism. Push yourself to share your creations with others. By maintaining an open stance, you’ll be able to learn from their feedback. Consider their responses new material that you can draw from the next time you’re embarking on a creative endeavor.",
                     "media": null,
-                    "selected": true,
+                    "selected": false,
                     "id": 2
                 },
                 {
